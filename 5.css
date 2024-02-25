@@ -1,0 +1,380 @@
+body{
+    height: 100%;
+    width: 100%;
+    color: white;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+    background-color:black ;
+}
+html{
+    margin: 0;
+    padding: 0;
+}
+body, html {
+   margin: 0;
+   padding: 0;
+}
+.lorem{
+    width: auto;
+    Height:36px;
+    font-size: 25px;
+    background-color: red;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.navbar{
+    height: 48px;
+    width: auto;
+    /* background-color: black; */
+    margin: 0px;
+    display: flex;
+    justify-content: space-between; 
+}
+.nav-links {
+    display: flex;
+    list-style: none;
+    gap: 4rem;
+}
+.nav-links a {
+    color: #fff;
+    text-decoration: none;    
+}
+.logo img {
+    width: 100px;
+    height: auto;
+}
+.Call{
+    text-decoration: none;
+    color: #fff;
+   display: flex;
+   align-items: center;
+}
+.jeep{
+overflow: hidden;
+    max-width: 100%;
+    text-align: center;
+    height: auto;
+    position: relative;
+    display: block;
+}
+.text{
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+.JOURNEY{
+    z-index: 5;
+    color: red;
+    position: absolute;  
+  top: 21%;
+  font-size: 49px;
+}
+.crossing{
+    z-index: 4;
+     top: 23%;
+    position: absolute;
+    font-size: 117px;  
+}
+.ordinary{
+    position: absolute;
+z-index: 7;
+     top: 47%;
+    color: red;
+    font-size: 117px;
+}
+/* .bottom{
+    height: auto;
+    width: auto;
+    background-color: black;
+    /* display: flex; */
+    /* justify-content: space-between; 
+} 
+ */
+.bottom1{
+    display: flex;
+    list-style: none;
+    gap: 1rem;
+}
+.bottom1 > li > a{
+    text-decoration: none;
+    color: #fff;
+}
+.free-delivery{
+    font-size: 22px;
+    height: auto;
+    width: auto;
+}
+/* about us page */
+.about-main{
+    
+    display: flex;
+    background-color: rgb(37, 32, 32);
+    height: 95vh;
+}
+.About{
+    color:red;
+    font-size: 49px;
+}
+.box1{
+  height: auto;
+  width: 50%;
+  text-align: start;
+}
+.paragraphs{
+    font-size: 20px;
+}
+.button1{
+    background-color: red;
+    color: white;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 25px;
+    align-items: center;
+    padding: 5px 5px;
+}
+.box2{
+    align-items: center;
+   display: flex;
+   justify-content: center;
+    height:auto;
+    width: 50%;
+    
+}
+
+.fordcar{
+     height:70vh;
+    width: 100%; 
+    border-radius: 25px;
+    
+}
+.pr{
+    display: flex;
+    justify-content: center;
+}
+.Our-products{
+    height: auto;
+    transform: skew(-45deg);
+    width: 170px;
+    background-color: red;
+    text-align: center;
+    align-items: center;
+    margin-top:50px;
+    font-size: 20px;
+}
+.main-box{
+    /* margin-top: 40px; */
+    display: flex;
+    justify-content: space-evenly;
+}
+.box3{
+      height: 200px;
+    width: 200px;  
+    
+    border: 2px solid red;
+}
+.box3-image{
+     height: 100%;
+    width: 100%; 
+}
+.lorem9{
+  
+    text-align: center;
+}
+.main{
+   height: 75vh;
+}
+.Our-products1{
+    height: auto;
+    transform: skew(-45deg);
+    width: 170px;
+    background-color: red;
+    text-align: center;
+    align-items: center;
+    font-size: 20px;
+}
+.Why-choose-us-main{
+    height: 105vh;
+    position: relative;
+    background-color: rgb(71, 65, 65);
+}
+.dummySanju{
+    display: flex;
+    justify-content: space-evenly;
+}
+.jm{
+    height: auto;
+    width: auto;
+    display: flex;
+   
+}
+.dummy{
+    font-size: 24px;
+}
+.jm1{
+    height: auto;
+    width: 27vw;
+    display: flex;
+}
+.jm2{
+    display: flex;
+    justify-content: center;
+    height:60vh;
+    width:auto ;
+    border: 3px solid red;
+}
+.dummy15{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+.jeep1{
+    background: url('jeep1.jpg');
+    height: 115vh;
+    width: 100%;
+    background-position: center;
+}
+.Commercial-videos{
+    height: auto;
+    transform: skew(-45deg);
+    width: 30vw;
+    background-color: red;
+    text-align: center;
+  
+    /* margin-left: 480px; */
+   
+    font-size: 12px;
+}
+.center{
+    display: flex;
+    justify-content: center;
+}
+.dummy16{
+    height:auto;
+width: 50vw;
+font-size: 1rem;
+}
+.image15{
+    height: auto;
+    width:50vw ;
+    
+}
+.image16{
+    position: absolute;
+    border-radius: 50%; 
+    padding: 9%;
+}
+.dummy17{
+    height: auto;
+    width: 460px;
+    
+    /* margin-left: 50px;
+    margin-top: 50px; */
+}
+.dummy18{
+    margin-left: 45px;
+    margin-top: 40px;
+}
+.dummy19{
+    margin-left: 90px;
+    margin-top: -35px;
+}
+.yummy{
+    display: flex;
+}
+.yummy2{
+    height: 340px;
+    width:400px;
+    margin-left: 160px;
+    margin-top: 50px;
+    
+    background-color: darkslategray;
+}
+.yummy3{
+    margin-top: -30px;
+}
+.name{
+    height:20px; 
+    width: 380px;
+    border: 2px solid white;
+    border-radius: 5px;
+    padding: 5px;
+}
+.name1{
+    height:20px; 
+    width: 380px;
+    border: 2px solid white;
+    border-radius: 5px;
+    padding: 5px;
+    margin-top: 10px;
+}
+.yummy99{
+    height: auto;
+    width: 380px;
+}
+.footer{
+    height: 300px;
+    width: auto;
+    background-color: black;
+}
+.footer1{
+    position: absolute;
+    width: 130px;
+    height: auto;
+    margin-left: 564px;
+    margin-top: 40px;
+}
+.line{
+    width: 80%;
+    margin-left: 100px;
+    margin-top: -180px;
+    border-bottom: 1.5px solid grey;
+}
+.navbar99{
+    height: 48px;
+    width: 100%;
+    background-color: black;
+    margin: 0px;
+    display: flex;
+    justify-content: center;
+   
+}
+.nav-links99 {
+    display: flex;
+    list-style: none;
+    gap: 4rem;
+    margin-left: -100px;
+    align-items: center;
+  
+}
+.nav-links99 a {
+    color: #fff;
+    text-decoration: none;
+}
+.logos{
+   text-align: center;
+   position: relative;
+}
+.logos a{
+    color: #fff;
+    text-decoration: none;
+}
+.brand1{
+  margin-right: 40px;
+}
+.brand2{
+    margin-right: 40px;
+  }
+  .logos > a > i{
+    margin-top: 30px;
+  }
+  .copyright{
+    height: auto;
+    width: auto;
+    background-color: rgb(71, 65, 65);
+    text-align: center;
+    padding: 18px;
+    margin-top: 27px;
+  }
